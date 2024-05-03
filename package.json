@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-multiline-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@storybook/html": "7.6.19",
+    "@storybook/html-webpack5": "7.6.19",
+    "@vanilla-extract/css": "^1.15.1",
+    "@vanilla-extract/webpack-plugin": "^2.3.0",
+    "storybook": "^7.6.19"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "overrides": {
+    "@vanilla-extract/integration": "7.1.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "npm@10.7.0+sha256.f443ed4364ea11ac5cf7cae7fb4731278c64dd6839093f8a46eabde0430e0fcd"
+}
